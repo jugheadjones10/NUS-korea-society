@@ -938,3 +938,12 @@ blockquote {
 .navbar-nav > .nav-item > .nav-link {
   font-family: 'Noto Serif KR', serif;  
 }
+
+@media (max-width: 575.98px) {
+  .justify-content-around > .col-lg-4{
+    width: 75%;
+  }
+    #faq-accordion h3{
+    font-size: 25px;
+  }
+}
