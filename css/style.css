@@ -7,8 +7,22 @@ VERSION:	Versoin Number
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
-/*  typography */
 
+
+
+
+/* Korean font */
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
+@font-face {
+  font-family: 'BwNistaInt-xBd';
+  src: url("../plugins/fonts/BwNistaInt-xBd.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+/*  typography */
 .navbar-brand > img{
   width: 50px;
   height: 50px;
@@ -16,14 +30,6 @@ VERSION:	Versoin Number
 
 .navbar-dark .navbar-nav .nav-link:hover{
   font-size: 20px;
-}
-
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
-@font-face {
-  font-family: 'BwNistaInt-xBd';
-  src: url("../plugins/fonts/BwNistaInt-xBd.woff") format("woff");
-  font-style: normal;
-  font-display: swap;
 }
 
 body {
@@ -857,7 +863,7 @@ blockquote {
 }
 
 .page-title {
-  padding: 250px 0 150px;
+  padding: 350px 0 70px;
 }
 
 .page-title .container {
@@ -918,4 +924,17 @@ blockquote {
   font-weight: bold;
 }
 
+
 /*# sourceMappingURL=maps/style.css.map */
+  body, a, h1, h2, h3, h4, p{
+  font-family: 'Noto Serif KR', serif;    
+}
+
+.section-title{
+  font-family: 'Noto Serif KR', serif;
+}
+    
+/*   Header style   */
+.navbar-nav > .nav-item > .nav-link {
+  font-family: 'Noto Serif KR', serif;  
+}
