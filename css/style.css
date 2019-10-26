@@ -157,7 +157,7 @@ h6, .h6 {
 
 body {
   background-color: #fff;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 ::-moz-selection {
@@ -827,7 +827,7 @@ blockquote {
 .page-title-alt .bg-shape-1 {
   position: absolute;
   left: 0;
-  top: 0;
+  bottom: 0;
 }
 
 .page-title-alt .bg-shape-2 {
@@ -874,8 +874,8 @@ blockquote {
 .page-title .bg-shape-1 {
   position: absolute;
   left: 0;
-  bottom: 0;
-  width: 100%;
+  bottom: 0px;
+  /* width: 100%; */
 }
 
 .page-title .bg-shape-2 {
