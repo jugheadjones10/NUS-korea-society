@@ -943,7 +943,7 @@ blockquote {
   .justify-content-around > .col-lg-4{
     width: 75%;
   }
-    #faq-accordion h3{
-    font-size: 25px;
+  #faq-accordion h3{
+    font-size: 15px;
   }
 }
